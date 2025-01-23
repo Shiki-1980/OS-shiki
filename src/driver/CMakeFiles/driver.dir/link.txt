@@ -1,0 +1,2 @@
+/usr/bin/ar qc libdriver.a CMakeFiles/driver.dir/clock.c.o CMakeFiles/driver.dir/gicv3.c.o CMakeFiles/driver.dir/interrupt.c.o CMakeFiles/driver.dir/timer.c.o CMakeFiles/driver.dir/uart.c.o CMakeFiles/driver.dir/virtio_blk.c.o
+/usr/bin/ranlib libdriver.a

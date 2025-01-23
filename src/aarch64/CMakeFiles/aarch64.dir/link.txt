@@ -1,0 +1,2 @@
+/usr/bin/ar qc libaarch64.a CMakeFiles/aarch64.dir/exception_vector.S.o CMakeFiles/aarch64.dir/intrinsic.c.o CMakeFiles/aarch64.dir/kernel_pt.c.o CMakeFiles/aarch64.dir/swtch.S.o CMakeFiles/aarch64.dir/trap.S.o CMakeFiles/aarch64.dir/trap.c.o
+/usr/bin/ranlib libaarch64.a

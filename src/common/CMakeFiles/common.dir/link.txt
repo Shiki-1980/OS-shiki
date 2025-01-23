@@ -1,0 +1,2 @@
+/usr/bin/ar qc libcommon.a CMakeFiles/common.dir/format.c.o CMakeFiles/common.dir/list.c.o CMakeFiles/common.dir/rbtree.c.o CMakeFiles/common.dir/rc.c.o CMakeFiles/common.dir/sem.c.o CMakeFiles/common.dir/spinlock.c.o CMakeFiles/common.dir/string.c.o
+/usr/bin/ranlib libcommon.a
