@@ -1,0 +1,13 @@
+# Hashes of file build rules.
+8ab1f58c151374fb19d3135e10e50ac0 CMakeFiles/debug
+3c8ab2c5b0963c3f98699bb95a7c3098 CMakeFiles/init_libc
+61e0abbcfcc405d81d1735aacec70065 CMakeFiles/libc
+39b8c21fb4ec4aa4039d6168d802baa3 CMakeFiles/qemu
+2f915ee6597a9c6fe771263dd5d8585f CMakeFiles/qemu-debug
+3c4101ad46220fc16853fec5c3473a09 boot/CMakeFiles/image
+af613eb8cd336127be2d3728886d29b4 boot/sd.img
+9dfbc0bb9fe8d1475fddadb05f180519 src/CMakeFiles/kernel
+7a44a1e2967facf194744a08ed4ebb12 src/kernel8.asm
+68aed728176eff23d0b635a00557af53 src/kernel8.hdr
+446c169eb39c188ec14562faeb9551e1 src/kernel8.img
+3ef66cb1527b739ccc94d88431f8ee75 src/user/CMakeFiles/user_bin
