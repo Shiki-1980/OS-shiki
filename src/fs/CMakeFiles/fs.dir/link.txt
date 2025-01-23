@@ -1,0 +1,2 @@
+/usr/bin/ar qc libfs.a CMakeFiles/fs.dir/block_device.c.o CMakeFiles/fs.dir/cache.c.o CMakeFiles/fs.dir/file.c.o CMakeFiles/fs.dir/fs.c.o CMakeFiles/fs.dir/inode.c.o CMakeFiles/fs.dir/pipe.c.o
+/usr/bin/ranlib libfs.a
