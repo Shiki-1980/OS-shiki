@@ -1,0 +1,104 @@
+[
+{
+  "directory": "/root/data/OS-24FALL-FDU/src/fs/test/build",
+  "command": "/usr/bin/c++  -I/root/data/OS-24FALL-FDU/src/fs/test/../..  -Wall -Wextra     -O1 -ftree-pre -g     -fno-omit-frame-pointer     -fsanitize=undefined     -fno-sanitize=alignment -Wall -Wextra     -O1 -ftree-pre -g     -fno-omit-frame-pointer     -fsanitize=undefined     -fno-sanitize=alignment -std=gnu++17 -o CMakeFiles/mock.dir/mock/arena.cpp.o -c /root/data/OS-24FALL-FDU/src/fs/test/mock/arena.cpp",
+  "file": "/root/data/OS-24FALL-FDU/src/fs/test/mock/arena.cpp",
+  "output": "CMakeFiles/mock.dir/mock/arena.cpp.o"
+},
+{
+  "directory": "/root/data/OS-24FALL-FDU/src/fs/test/build",
+  "command": "/usr/bin/c++  -I/root/data/OS-24FALL-FDU/src/fs/test/../..  -Wall -Wextra     -O1 -ftree-pre -g     -fno-omit-frame-pointer     -fsanitize=undefined     -fno-sanitize=alignment -Wall -Wextra     -O1 -ftree-pre -g     -fno-omit-frame-pointer     -fsanitize=undefined     -fno-sanitize=alignment -std=gnu++17 -o CMakeFiles/mock.dir/mock/list.cpp.o -c /root/data/OS-24FALL-FDU/src/fs/test/mock/list.cpp",
+  "file": "/root/data/OS-24FALL-FDU/src/fs/test/mock/list.cpp",
+  "output": "CMakeFiles/mock.dir/mock/list.cpp.o"
+},
+{
+  "directory": "/root/data/OS-24FALL-FDU/src/fs/test/build",
+  "command": "/usr/bin/c++  -I/root/data/OS-24FALL-FDU/src/fs/test/../..  -Wall -Wextra     -O1 -ftree-pre -g     -fno-omit-frame-pointer     -fsanitize=undefined     -fno-sanitize=alignment -Wall -Wextra     -O1 -ftree-pre -g     -fno-omit-frame-pointer     -fsanitize=undefined     -fno-sanitize=alignment -std=gnu++17 -o CMakeFiles/mock.dir/mock/lock.cpp.o -c /root/data/OS-24FALL-FDU/src/fs/test/mock/lock.cpp",
+  "file": "/root/data/OS-24FALL-FDU/src/fs/test/mock/lock.cpp",
+  "output": "CMakeFiles/mock.dir/mock/lock.cpp.o"
+},
+{
+  "directory": "/root/data/OS-24FALL-FDU/src/fs/test/build",
+  "command": "/usr/bin/c++  -I/root/data/OS-24FALL-FDU/src/fs/test/../..  -Wall -Wextra     -O1 -ftree-pre -g     -fno-omit-frame-pointer     -fsanitize=undefined     -fno-sanitize=alignment -Wall -Wextra     -O1 -ftree-pre -g     -fno-omit-frame-pointer     -fsanitize=undefined     -fno-sanitize=alignment -std=gnu++17 -o CMakeFiles/mock.dir/mock/lock_config.cpp.o -c /root/data/OS-24FALL-FDU/src/fs/test/mock/lock_config.cpp",
+  "file": "/root/data/OS-24FALL-FDU/src/fs/test/mock/lock_config.cpp",
+  "output": "CMakeFiles/mock.dir/mock/lock_config.cpp.o"
+},
+{
+  "directory": "/root/data/OS-24FALL-FDU/src/fs/test/build",
+  "command": "/usr/bin/c++  -I/root/data/OS-24FALL-FDU/src/fs/test/../..  -Wall -Wextra     -O1 -ftree-pre -g     -fno-omit-frame-pointer     -fsanitize=undefined     -fno-sanitize=alignment -Wall -Wextra     -O1 -ftree-pre -g     -fno-omit-frame-pointer     -fsanitize=undefined     -fno-sanitize=alignment -std=gnu++17 -o CMakeFiles/mock.dir/mock/panic.cpp.o -c /root/data/OS-24FALL-FDU/src/fs/test/mock/panic.cpp",
+  "file": "/root/data/OS-24FALL-FDU/src/fs/test/mock/panic.cpp",
+  "output": "CMakeFiles/mock.dir/mock/panic.cpp.o"
+},
+{
+  "directory": "/root/data/OS-24FALL-FDU/src/fs/test/build",
+  "command": "/usr/bin/c++  -I/root/data/OS-24FALL-FDU/src/fs/test/../..  -Wall -Wextra     -O1 -ftree-pre -g     -fno-omit-frame-pointer     -fsanitize=undefined     -fno-sanitize=alignment -Wall -Wextra     -O1 -ftree-pre -g     -fno-omit-frame-pointer     -fsanitize=undefined     -fno-sanitize=alignment -std=gnu++17 -o CMakeFiles/mock.dir/mock/printk.cpp.o -c /root/data/OS-24FALL-FDU/src/fs/test/mock/printk.cpp",
+  "file": "/root/data/OS-24FALL-FDU/src/fs/test/mock/printk.cpp",
+  "output": "CMakeFiles/mock.dir/mock/printk.cpp.o"
+},
+{
+  "directory": "/root/data/OS-24FALL-FDU/src/fs/test/build",
+  "command": "/usr/bin/c++  -I/root/data/OS-24FALL-FDU/src/fs/test/../..  -Wall -Wextra     -O1 -ftree-pre -g     -fno-omit-frame-pointer     -fsanitize=undefined     -fno-sanitize=alignment -Wall -Wextra     -O1 -ftree-pre -g     -fno-omit-frame-pointer     -fsanitize=undefined     -fno-sanitize=alignment -std=gnu++17 -o CMakeFiles/mock.dir/mock/rc.cpp.o -c /root/data/OS-24FALL-FDU/src/fs/test/mock/rc.cpp",
+  "file": "/root/data/OS-24FALL-FDU/src/fs/test/mock/rc.cpp",
+  "output": "CMakeFiles/mock.dir/mock/rc.cpp.o"
+},
+{
+  "directory": "/root/data/OS-24FALL-FDU/src/fs/test/build",
+  "command": "/usr/bin/c++  -I/root/data/OS-24FALL-FDU/src/fs/test/../..  -Wall -Wextra     -O1 -ftree-pre -g     -fno-omit-frame-pointer     -fsanitize=undefined     -fno-sanitize=alignment -Wall -Wextra     -O1 -ftree-pre -g     -fno-omit-frame-pointer     -fsanitize=undefined     -fno-sanitize=alignment -std=gnu++17 -o CMakeFiles/mock.dir/mock/yield.cpp.o -c /root/data/OS-24FALL-FDU/src/fs/test/mock/yield.cpp",
+  "file": "/root/data/OS-24FALL-FDU/src/fs/test/mock/yield.cpp",
+  "output": "CMakeFiles/mock.dir/mock/yield.cpp.o"
+},
+{
+  "directory": "/root/data/OS-24FALL-FDU/src/fs/test/build",
+  "command": "/usr/bin/cc  -I/root/data/OS-24FALL-FDU/src/fs/test/../..  -Wall -Wextra     -O1 -ftree-pre -g     -fno-omit-frame-pointer     -fsanitize=undefined     -fno-sanitize=alignment -std=gnu11 -fno-builtin -o CMakeFiles/fs.dir/root/data/OS-24FALL-FDU/src/fs/block_device.c.o -c /root/data/OS-24FALL-FDU/src/fs/block_device.c",
+  "file": "/root/data/OS-24FALL-FDU/src/fs/block_device.c",
+  "output": "CMakeFiles/fs.dir/root/data/OS-24FALL-FDU/src/fs/block_device.c.o"
+},
+{
+  "directory": "/root/data/OS-24FALL-FDU/src/fs/test/build",
+  "command": "/usr/bin/cc  -I/root/data/OS-24FALL-FDU/src/fs/test/../..  -Wall -Wextra     -O1 -ftree-pre -g     -fno-omit-frame-pointer     -fsanitize=undefined     -fno-sanitize=alignment -std=gnu11 -fno-builtin -o CMakeFiles/fs.dir/root/data/OS-24FALL-FDU/src/fs/cache.c.o -c /root/data/OS-24FALL-FDU/src/fs/cache.c",
+  "file": "/root/data/OS-24FALL-FDU/src/fs/cache.c",
+  "output": "CMakeFiles/fs.dir/root/data/OS-24FALL-FDU/src/fs/cache.c.o"
+},
+{
+  "directory": "/root/data/OS-24FALL-FDU/src/fs/test/build",
+  "command": "/usr/bin/cc  -I/root/data/OS-24FALL-FDU/src/fs/test/../..  -Wall -Wextra     -O1 -ftree-pre -g     -fno-omit-frame-pointer     -fsanitize=undefined     -fno-sanitize=alignment -std=gnu11 -fno-builtin -o CMakeFiles/fs.dir/root/data/OS-24FALL-FDU/src/fs/file.c.o -c /root/data/OS-24FALL-FDU/src/fs/file.c",
+  "file": "/root/data/OS-24FALL-FDU/src/fs/file.c",
+  "output": "CMakeFiles/fs.dir/root/data/OS-24FALL-FDU/src/fs/file.c.o"
+},
+{
+  "directory": "/root/data/OS-24FALL-FDU/src/fs/test/build",
+  "command": "/usr/bin/cc  -I/root/data/OS-24FALL-FDU/src/fs/test/../..  -Wall -Wextra     -O1 -ftree-pre -g     -fno-omit-frame-pointer     -fsanitize=undefined     -fno-sanitize=alignment -std=gnu11 -fno-builtin -o CMakeFiles/fs.dir/root/data/OS-24FALL-FDU/src/fs/fs.c.o -c /root/data/OS-24FALL-FDU/src/fs/fs.c",
+  "file": "/root/data/OS-24FALL-FDU/src/fs/fs.c",
+  "output": "CMakeFiles/fs.dir/root/data/OS-24FALL-FDU/src/fs/fs.c.o"
+},
+{
+  "directory": "/root/data/OS-24FALL-FDU/src/fs/test/build",
+  "command": "/usr/bin/cc  -I/root/data/OS-24FALL-FDU/src/fs/test/../..  -Wall -Wextra     -O1 -ftree-pre -g     -fno-omit-frame-pointer     -fsanitize=undefined     -fno-sanitize=alignment -std=gnu11 -fno-builtin -o CMakeFiles/fs.dir/root/data/OS-24FALL-FDU/src/fs/inode.c.o -c /root/data/OS-24FALL-FDU/src/fs/inode.c",
+  "file": "/root/data/OS-24FALL-FDU/src/fs/inode.c",
+  "output": "CMakeFiles/fs.dir/root/data/OS-24FALL-FDU/src/fs/inode.c.o"
+},
+{
+  "directory": "/root/data/OS-24FALL-FDU/src/fs/test/build",
+  "command": "/usr/bin/cc  -I/root/data/OS-24FALL-FDU/src/fs/test/../..  -Wall -Wextra     -O1 -ftree-pre -g     -fno-omit-frame-pointer     -fsanitize=undefined     -fno-sanitize=alignment -std=gnu11 -fno-builtin -o CMakeFiles/fs.dir/root/data/OS-24FALL-FDU/src/fs/pipe.c.o -c /root/data/OS-24FALL-FDU/src/fs/pipe.c",
+  "file": "/root/data/OS-24FALL-FDU/src/fs/pipe.c",
+  "output": "CMakeFiles/fs.dir/root/data/OS-24FALL-FDU/src/fs/pipe.c.o"
+},
+{
+  "directory": "/root/data/OS-24FALL-FDU/src/fs/test/build",
+  "command": "/usr/bin/cc  -I/root/data/OS-24FALL-FDU/src/fs/test/../..  -Wall -Wextra     -O1 -ftree-pre -g     -fno-omit-frame-pointer     -fsanitize=undefined     -fno-sanitize=alignment -std=gnu11 -fno-builtin -o CMakeFiles/fs.dir/instrument.c.o -c /root/data/OS-24FALL-FDU/src/fs/test/instrument.c",
+  "file": "/root/data/OS-24FALL-FDU/src/fs/test/instrument.c",
+  "output": "CMakeFiles/fs.dir/instrument.c.o"
+},
+{
+  "directory": "/root/data/OS-24FALL-FDU/src/fs/test/build",
+  "command": "/usr/bin/c++  -I/root/data/OS-24FALL-FDU/src/fs/test/../..  -Wall -Wextra     -O1 -ftree-pre -g     -fno-omit-frame-pointer     -fsanitize=undefined     -fno-sanitize=alignment -Wall -Wextra     -O1 -ftree-pre -g     -fno-omit-frame-pointer     -fsanitize=undefined     -fno-sanitize=alignment -std=gnu++17 -fno-builtin -o CMakeFiles/inode_test.dir/inode_test.cpp.o -c /root/data/OS-24FALL-FDU/src/fs/test/inode_test.cpp",
+  "file": "/root/data/OS-24FALL-FDU/src/fs/test/inode_test.cpp",
+  "output": "CMakeFiles/inode_test.dir/inode_test.cpp.o"
+},
+{
+  "directory": "/root/data/OS-24FALL-FDU/src/fs/test/build",
+  "command": "/usr/bin/c++  -I/root/data/OS-24FALL-FDU/src/fs/test/../..  -Wall -Wextra     -O1 -ftree-pre -g     -fno-omit-frame-pointer     -fsanitize=undefined     -fno-sanitize=alignment -Wall -Wextra     -O1 -ftree-pre -g     -fno-omit-frame-pointer     -fsanitize=undefined     -fno-sanitize=alignment -std=gnu++17 -fno-builtin -o CMakeFiles/cache_test.dir/cache_test.cpp.o -c /root/data/OS-24FALL-FDU/src/fs/test/cache_test.cpp",
+  "file": "/root/data/OS-24FALL-FDU/src/fs/test/cache_test.cpp",
+  "output": "CMakeFiles/cache_test.dir/cache_test.cpp.o"
+}
+]
