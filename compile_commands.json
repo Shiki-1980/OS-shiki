@@ -1,0 +1,344 @@
+[
+{
+  "directory": "/root/data/OS-24FALL-FDU/src",
+  "command": "gcc  -I/root/data/OS-24FALL-FDU/src -I/root/data/OS-24FALL-FDU/src/../musl/obj/include -I/root/data/OS-24FALL-FDU/src/../musl/include -I/root/data/OS-24FALL-FDU/src/../musl/arch/aarch64 -I/root/data/OS-24FALL-FDU/src/../musl/arch/generic  -Werror -Wall -Wextra     -fno-pie -fno-pic -fno-stack-protector     -fno-zero-initialized-in-bss     -Og -g -static -fno-builtin -nostdlib -nostdinc -ffreestanding -nostartfiles     -Wl,--whole-archive     -mgeneral-regs-only     -MMD -MP     -mlittle-endian -mcmodel=small -mno-outline-atomics     -mcpu=cortex-a72+nofp -mtune=cortex-a72 -DUSE_ARMVIRT -Wno-error=unused-parameter -std=gnu11 -o CMakeFiles/kernel8.elf.dir/main.c.o -c /root/data/OS-24FALL-FDU/src/main.c",
+  "file": "/root/data/OS-24FALL-FDU/src/main.c",
+  "output": "src/CMakeFiles/kernel8.elf.dir/main.c.o"
+},
+{
+  "directory": "/root/data/OS-24FALL-FDU/src",
+  "command": "gcc  -I/root/data/OS-24FALL-FDU/src -I/root/data/OS-24FALL-FDU/src/../musl/obj/include -I/root/data/OS-24FALL-FDU/src/../musl/include -I/root/data/OS-24FALL-FDU/src/../musl/arch/aarch64 -I/root/data/OS-24FALL-FDU/src/../musl/arch/generic  -Werror -Wall -Wextra     -fno-pie -fno-pic -fno-stack-protector     -fno-zero-initialized-in-bss     -Og -g -static -fno-builtin -nostdlib -nostdinc -ffreestanding -nostartfiles     -Wl,--whole-archive     -mgeneral-regs-only     -MMD -MP     -mlittle-endian -mcmodel=small -mno-outline-atomics     -mcpu=cortex-a72+nofp -mtune=cortex-a72 -DUSE_ARMVIRT -Wno-error=unused-parameter -o CMakeFiles/kernel8.elf.dir/start.S.o -c /root/data/OS-24FALL-FDU/src/start.S",
+  "file": "/root/data/OS-24FALL-FDU/src/start.S",
+  "output": "src/CMakeFiles/kernel8.elf.dir/start.S.o"
+},
+{
+  "directory": "/root/data/OS-24FALL-FDU/src/aarch64",
+  "command": "gcc  -I/root/data/OS-24FALL-FDU/src -I/root/data/OS-24FALL-FDU/src/../musl/obj/include -I/root/data/OS-24FALL-FDU/src/../musl/include -I/root/data/OS-24FALL-FDU/src/../musl/arch/aarch64 -I/root/data/OS-24FALL-FDU/src/../musl/arch/generic  -Werror -Wall -Wextra     -fno-pie -fno-pic -fno-stack-protector     -fno-zero-initialized-in-bss     -Og -g -static -fno-builtin -nostdlib -nostdinc -ffreestanding -nostartfiles     -Wl,--whole-archive     -mgeneral-regs-only     -MMD -MP     -mlittle-endian -mcmodel=small -mno-outline-atomics     -mcpu=cortex-a72+nofp -mtune=cortex-a72 -DUSE_ARMVIRT -Wno-error=unused-parameter -o CMakeFiles/aarch64.dir/exception_vector.S.o -c /root/data/OS-24FALL-FDU/src/aarch64/exception_vector.S",
+  "file": "/root/data/OS-24FALL-FDU/src/aarch64/exception_vector.S",
+  "output": "src/aarch64/CMakeFiles/aarch64.dir/exception_vector.S.o"
+},
+{
+  "directory": "/root/data/OS-24FALL-FDU/src/aarch64",
+  "command": "gcc  -I/root/data/OS-24FALL-FDU/src -I/root/data/OS-24FALL-FDU/src/../musl/obj/include -I/root/data/OS-24FALL-FDU/src/../musl/include -I/root/data/OS-24FALL-FDU/src/../musl/arch/aarch64 -I/root/data/OS-24FALL-FDU/src/../musl/arch/generic  -Werror -Wall -Wextra     -fno-pie -fno-pic -fno-stack-protector     -fno-zero-initialized-in-bss     -Og -g -static -fno-builtin -nostdlib -nostdinc -ffreestanding -nostartfiles     -Wl,--whole-archive     -mgeneral-regs-only     -MMD -MP     -mlittle-endian -mcmodel=small -mno-outline-atomics     -mcpu=cortex-a72+nofp -mtune=cortex-a72 -DUSE_ARMVIRT -Wno-error=unused-parameter -std=gnu11 -o CMakeFiles/aarch64.dir/intrinsic.c.o -c /root/data/OS-24FALL-FDU/src/aarch64/intrinsic.c",
+  "file": "/root/data/OS-24FALL-FDU/src/aarch64/intrinsic.c",
+  "output": "src/aarch64/CMakeFiles/aarch64.dir/intrinsic.c.o"
+},
+{
+  "directory": "/root/data/OS-24FALL-FDU/src/aarch64",
+  "command": "gcc  -I/root/data/OS-24FALL-FDU/src -I/root/data/OS-24FALL-FDU/src/../musl/obj/include -I/root/data/OS-24FALL-FDU/src/../musl/include -I/root/data/OS-24FALL-FDU/src/../musl/arch/aarch64 -I/root/data/OS-24FALL-FDU/src/../musl/arch/generic  -Werror -Wall -Wextra     -fno-pie -fno-pic -fno-stack-protector     -fno-zero-initialized-in-bss     -Og -g -static -fno-builtin -nostdlib -nostdinc -ffreestanding -nostartfiles     -Wl,--whole-archive     -mgeneral-regs-only     -MMD -MP     -mlittle-endian -mcmodel=small -mno-outline-atomics     -mcpu=cortex-a72+nofp -mtune=cortex-a72 -DUSE_ARMVIRT -Wno-error=unused-parameter -std=gnu11 -o CMakeFiles/aarch64.dir/kernel_pt.c.o -c /root/data/OS-24FALL-FDU/src/aarch64/kernel_pt.c",
+  "file": "/root/data/OS-24FALL-FDU/src/aarch64/kernel_pt.c",
+  "output": "src/aarch64/CMakeFiles/aarch64.dir/kernel_pt.c.o"
+},
+{
+  "directory": "/root/data/OS-24FALL-FDU/src/aarch64",
+  "command": "gcc  -I/root/data/OS-24FALL-FDU/src -I/root/data/OS-24FALL-FDU/src/../musl/obj/include -I/root/data/OS-24FALL-FDU/src/../musl/include -I/root/data/OS-24FALL-FDU/src/../musl/arch/aarch64 -I/root/data/OS-24FALL-FDU/src/../musl/arch/generic  -Werror -Wall -Wextra     -fno-pie -fno-pic -fno-stack-protector     -fno-zero-initialized-in-bss     -Og -g -static -fno-builtin -nostdlib -nostdinc -ffreestanding -nostartfiles     -Wl,--whole-archive     -mgeneral-regs-only     -MMD -MP     -mlittle-endian -mcmodel=small -mno-outline-atomics     -mcpu=cortex-a72+nofp -mtune=cortex-a72 -DUSE_ARMVIRT -Wno-error=unused-parameter -o CMakeFiles/aarch64.dir/swtch.S.o -c /root/data/OS-24FALL-FDU/src/aarch64/swtch.S",
+  "file": "/root/data/OS-24FALL-FDU/src/aarch64/swtch.S",
+  "output": "src/aarch64/CMakeFiles/aarch64.dir/swtch.S.o"
+},
+{
+  "directory": "/root/data/OS-24FALL-FDU/src/aarch64",
+  "command": "gcc  -I/root/data/OS-24FALL-FDU/src -I/root/data/OS-24FALL-FDU/src/../musl/obj/include -I/root/data/OS-24FALL-FDU/src/../musl/include -I/root/data/OS-24FALL-FDU/src/../musl/arch/aarch64 -I/root/data/OS-24FALL-FDU/src/../musl/arch/generic  -Werror -Wall -Wextra     -fno-pie -fno-pic -fno-stack-protector     -fno-zero-initialized-in-bss     -Og -g -static -fno-builtin -nostdlib -nostdinc -ffreestanding -nostartfiles     -Wl,--whole-archive     -mgeneral-regs-only     -MMD -MP     -mlittle-endian -mcmodel=small -mno-outline-atomics     -mcpu=cortex-a72+nofp -mtune=cortex-a72 -DUSE_ARMVIRT -Wno-error=unused-parameter -o CMakeFiles/aarch64.dir/trap.S.o -c /root/data/OS-24FALL-FDU/src/aarch64/trap.S",
+  "file": "/root/data/OS-24FALL-FDU/src/aarch64/trap.S",
+  "output": "src/aarch64/CMakeFiles/aarch64.dir/trap.S.o"
+},
+{
+  "directory": "/root/data/OS-24FALL-FDU/src/aarch64",
+  "command": "gcc  -I/root/data/OS-24FALL-FDU/src -I/root/data/OS-24FALL-FDU/src/../musl/obj/include -I/root/data/OS-24FALL-FDU/src/../musl/include -I/root/data/OS-24FALL-FDU/src/../musl/arch/aarch64 -I/root/data/OS-24FALL-FDU/src/../musl/arch/generic  -Werror -Wall -Wextra     -fno-pie -fno-pic -fno-stack-protector     -fno-zero-initialized-in-bss     -Og -g -static -fno-builtin -nostdlib -nostdinc -ffreestanding -nostartfiles     -Wl,--whole-archive     -mgeneral-regs-only     -MMD -MP     -mlittle-endian -mcmodel=small -mno-outline-atomics     -mcpu=cortex-a72+nofp -mtune=cortex-a72 -DUSE_ARMVIRT -Wno-error=unused-parameter -std=gnu11 -o CMakeFiles/aarch64.dir/trap.c.o -c /root/data/OS-24FALL-FDU/src/aarch64/trap.c",
+  "file": "/root/data/OS-24FALL-FDU/src/aarch64/trap.c",
+  "output": "src/aarch64/CMakeFiles/aarch64.dir/trap.c.o"
+},
+{
+  "directory": "/root/data/OS-24FALL-FDU/src/common",
+  "command": "gcc  -I/root/data/OS-24FALL-FDU/src -I/root/data/OS-24FALL-FDU/src/../musl/obj/include -I/root/data/OS-24FALL-FDU/src/../musl/include -I/root/data/OS-24FALL-FDU/src/../musl/arch/aarch64 -I/root/data/OS-24FALL-FDU/src/../musl/arch/generic  -Werror -Wall -Wextra     -fno-pie -fno-pic -fno-stack-protector     -fno-zero-initialized-in-bss     -Og -g -static -fno-builtin -nostdlib -nostdinc -ffreestanding -nostartfiles     -Wl,--whole-archive     -mgeneral-regs-only     -MMD -MP     -mlittle-endian -mcmodel=small -mno-outline-atomics     -mcpu=cortex-a72+nofp -mtune=cortex-a72 -DUSE_ARMVIRT -Wno-error=unused-parameter -std=gnu11 -o CMakeFiles/common.dir/format.c.o -c /root/data/OS-24FALL-FDU/src/common/format.c",
+  "file": "/root/data/OS-24FALL-FDU/src/common/format.c",
+  "output": "src/common/CMakeFiles/common.dir/format.c.o"
+},
+{
+  "directory": "/root/data/OS-24FALL-FDU/src/common",
+  "command": "gcc  -I/root/data/OS-24FALL-FDU/src -I/root/data/OS-24FALL-FDU/src/../musl/obj/include -I/root/data/OS-24FALL-FDU/src/../musl/include -I/root/data/OS-24FALL-FDU/src/../musl/arch/aarch64 -I/root/data/OS-24FALL-FDU/src/../musl/arch/generic  -Werror -Wall -Wextra     -fno-pie -fno-pic -fno-stack-protector     -fno-zero-initialized-in-bss     -Og -g -static -fno-builtin -nostdlib -nostdinc -ffreestanding -nostartfiles     -Wl,--whole-archive     -mgeneral-regs-only     -MMD -MP     -mlittle-endian -mcmodel=small -mno-outline-atomics     -mcpu=cortex-a72+nofp -mtune=cortex-a72 -DUSE_ARMVIRT -Wno-error=unused-parameter -std=gnu11 -o CMakeFiles/common.dir/list.c.o -c /root/data/OS-24FALL-FDU/src/common/list.c",
+  "file": "/root/data/OS-24FALL-FDU/src/common/list.c",
+  "output": "src/common/CMakeFiles/common.dir/list.c.o"
+},
+{
+  "directory": "/root/data/OS-24FALL-FDU/src/common",
+  "command": "gcc  -I/root/data/OS-24FALL-FDU/src -I/root/data/OS-24FALL-FDU/src/../musl/obj/include -I/root/data/OS-24FALL-FDU/src/../musl/include -I/root/data/OS-24FALL-FDU/src/../musl/arch/aarch64 -I/root/data/OS-24FALL-FDU/src/../musl/arch/generic  -Werror -Wall -Wextra     -fno-pie -fno-pic -fno-stack-protector     -fno-zero-initialized-in-bss     -Og -g -static -fno-builtin -nostdlib -nostdinc -ffreestanding -nostartfiles     -Wl,--whole-archive     -mgeneral-regs-only     -MMD -MP     -mlittle-endian -mcmodel=small -mno-outline-atomics     -mcpu=cortex-a72+nofp -mtune=cortex-a72 -DUSE_ARMVIRT -Wno-error=unused-parameter -std=gnu11 -o CMakeFiles/common.dir/rbtree.c.o -c /root/data/OS-24FALL-FDU/src/common/rbtree.c",
+  "file": "/root/data/OS-24FALL-FDU/src/common/rbtree.c",
+  "output": "src/common/CMakeFiles/common.dir/rbtree.c.o"
+},
+{
+  "directory": "/root/data/OS-24FALL-FDU/src/common",
+  "command": "gcc  -I/root/data/OS-24FALL-FDU/src -I/root/data/OS-24FALL-FDU/src/../musl/obj/include -I/root/data/OS-24FALL-FDU/src/../musl/include -I/root/data/OS-24FALL-FDU/src/../musl/arch/aarch64 -I/root/data/OS-24FALL-FDU/src/../musl/arch/generic  -Werror -Wall -Wextra     -fno-pie -fno-pic -fno-stack-protector     -fno-zero-initialized-in-bss     -Og -g -static -fno-builtin -nostdlib -nostdinc -ffreestanding -nostartfiles     -Wl,--whole-archive     -mgeneral-regs-only     -MMD -MP     -mlittle-endian -mcmodel=small -mno-outline-atomics     -mcpu=cortex-a72+nofp -mtune=cortex-a72 -DUSE_ARMVIRT -Wno-error=unused-parameter -std=gnu11 -o CMakeFiles/common.dir/rc.c.o -c /root/data/OS-24FALL-FDU/src/common/rc.c",
+  "file": "/root/data/OS-24FALL-FDU/src/common/rc.c",
+  "output": "src/common/CMakeFiles/common.dir/rc.c.o"
+},
+{
+  "directory": "/root/data/OS-24FALL-FDU/src/common",
+  "command": "gcc  -I/root/data/OS-24FALL-FDU/src -I/root/data/OS-24FALL-FDU/src/../musl/obj/include -I/root/data/OS-24FALL-FDU/src/../musl/include -I/root/data/OS-24FALL-FDU/src/../musl/arch/aarch64 -I/root/data/OS-24FALL-FDU/src/../musl/arch/generic  -Werror -Wall -Wextra     -fno-pie -fno-pic -fno-stack-protector     -fno-zero-initialized-in-bss     -Og -g -static -fno-builtin -nostdlib -nostdinc -ffreestanding -nostartfiles     -Wl,--whole-archive     -mgeneral-regs-only     -MMD -MP     -mlittle-endian -mcmodel=small -mno-outline-atomics     -mcpu=cortex-a72+nofp -mtune=cortex-a72 -DUSE_ARMVIRT -Wno-error=unused-parameter -std=gnu11 -o CMakeFiles/common.dir/sem.c.o -c /root/data/OS-24FALL-FDU/src/common/sem.c",
+  "file": "/root/data/OS-24FALL-FDU/src/common/sem.c",
+  "output": "src/common/CMakeFiles/common.dir/sem.c.o"
+},
+{
+  "directory": "/root/data/OS-24FALL-FDU/src/common",
+  "command": "gcc  -I/root/data/OS-24FALL-FDU/src -I/root/data/OS-24FALL-FDU/src/../musl/obj/include -I/root/data/OS-24FALL-FDU/src/../musl/include -I/root/data/OS-24FALL-FDU/src/../musl/arch/aarch64 -I/root/data/OS-24FALL-FDU/src/../musl/arch/generic  -Werror -Wall -Wextra     -fno-pie -fno-pic -fno-stack-protector     -fno-zero-initialized-in-bss     -Og -g -static -fno-builtin -nostdlib -nostdinc -ffreestanding -nostartfiles     -Wl,--whole-archive     -mgeneral-regs-only     -MMD -MP     -mlittle-endian -mcmodel=small -mno-outline-atomics     -mcpu=cortex-a72+nofp -mtune=cortex-a72 -DUSE_ARMVIRT -Wno-error=unused-parameter -std=gnu11 -o CMakeFiles/common.dir/spinlock.c.o -c /root/data/OS-24FALL-FDU/src/common/spinlock.c",
+  "file": "/root/data/OS-24FALL-FDU/src/common/spinlock.c",
+  "output": "src/common/CMakeFiles/common.dir/spinlock.c.o"
+},
+{
+  "directory": "/root/data/OS-24FALL-FDU/src/common",
+  "command": "gcc  -I/root/data/OS-24FALL-FDU/src -I/root/data/OS-24FALL-FDU/src/../musl/obj/include -I/root/data/OS-24FALL-FDU/src/../musl/include -I/root/data/OS-24FALL-FDU/src/../musl/arch/aarch64 -I/root/data/OS-24FALL-FDU/src/../musl/arch/generic  -Werror -Wall -Wextra     -fno-pie -fno-pic -fno-stack-protector     -fno-zero-initialized-in-bss     -Og -g -static -fno-builtin -nostdlib -nostdinc -ffreestanding -nostartfiles     -Wl,--whole-archive     -mgeneral-regs-only     -MMD -MP     -mlittle-endian -mcmodel=small -mno-outline-atomics     -mcpu=cortex-a72+nofp -mtune=cortex-a72 -DUSE_ARMVIRT -Wno-error=unused-parameter -std=gnu11 -o CMakeFiles/common.dir/string.c.o -c /root/data/OS-24FALL-FDU/src/common/string.c",
+  "file": "/root/data/OS-24FALL-FDU/src/common/string.c",
+  "output": "src/common/CMakeFiles/common.dir/string.c.o"
+},
+{
+  "directory": "/root/data/OS-24FALL-FDU/src/kernel",
+  "command": "gcc  -I/root/data/OS-24FALL-FDU/src -I/root/data/OS-24FALL-FDU/src/../musl/obj/include -I/root/data/OS-24FALL-FDU/src/../musl/include -I/root/data/OS-24FALL-FDU/src/../musl/arch/aarch64 -I/root/data/OS-24FALL-FDU/src/../musl/arch/generic  -Werror -Wall -Wextra     -fno-pie -fno-pic -fno-stack-protector     -fno-zero-initialized-in-bss     -Og -g -static -fno-builtin -nostdlib -nostdinc -ffreestanding -nostartfiles     -Wl,--whole-archive     -mgeneral-regs-only     -MMD -MP     -mlittle-endian -mcmodel=small -mno-outline-atomics     -mcpu=cortex-a72+nofp -mtune=cortex-a72 -DUSE_ARMVIRT -Wno-error=unused-parameter -std=gnu11 -o CMakeFiles/kernelx.dir/console.c.o -c /root/data/OS-24FALL-FDU/src/kernel/console.c",
+  "file": "/root/data/OS-24FALL-FDU/src/kernel/console.c",
+  "output": "src/kernel/CMakeFiles/kernelx.dir/console.c.o"
+},
+{
+  "directory": "/root/data/OS-24FALL-FDU/src/kernel",
+  "command": "gcc  -I/root/data/OS-24FALL-FDU/src -I/root/data/OS-24FALL-FDU/src/../musl/obj/include -I/root/data/OS-24FALL-FDU/src/../musl/include -I/root/data/OS-24FALL-FDU/src/../musl/arch/aarch64 -I/root/data/OS-24FALL-FDU/src/../musl/arch/generic  -Werror -Wall -Wextra     -fno-pie -fno-pic -fno-stack-protector     -fno-zero-initialized-in-bss     -Og -g -static -fno-builtin -nostdlib -nostdinc -ffreestanding -nostartfiles     -Wl,--whole-archive     -mgeneral-regs-only     -MMD -MP     -mlittle-endian -mcmodel=small -mno-outline-atomics     -mcpu=cortex-a72+nofp -mtune=cortex-a72 -DUSE_ARMVIRT -Wno-error=unused-parameter -std=gnu11 -o CMakeFiles/kernelx.dir/core.c.o -c /root/data/OS-24FALL-FDU/src/kernel/core.c",
+  "file": "/root/data/OS-24FALL-FDU/src/kernel/core.c",
+  "output": "src/kernel/CMakeFiles/kernelx.dir/core.c.o"
+},
+{
+  "directory": "/root/data/OS-24FALL-FDU/src/kernel",
+  "command": "gcc  -I/root/data/OS-24FALL-FDU/src -I/root/data/OS-24FALL-FDU/src/../musl/obj/include -I/root/data/OS-24FALL-FDU/src/../musl/include -I/root/data/OS-24FALL-FDU/src/../musl/arch/aarch64 -I/root/data/OS-24FALL-FDU/src/../musl/arch/generic  -Werror -Wall -Wextra     -fno-pie -fno-pic -fno-stack-protector     -fno-zero-initialized-in-bss     -Og -g -static -fno-builtin -nostdlib -nostdinc -ffreestanding -nostartfiles     -Wl,--whole-archive     -mgeneral-regs-only     -MMD -MP     -mlittle-endian -mcmodel=small -mno-outline-atomics     -mcpu=cortex-a72+nofp -mtune=cortex-a72 -DUSE_ARMVIRT -Wno-error=unused-parameter -std=gnu11 -o CMakeFiles/kernelx.dir/cpu.c.o -c /root/data/OS-24FALL-FDU/src/kernel/cpu.c",
+  "file": "/root/data/OS-24FALL-FDU/src/kernel/cpu.c",
+  "output": "src/kernel/CMakeFiles/kernelx.dir/cpu.c.o"
+},
+{
+  "directory": "/root/data/OS-24FALL-FDU/src/kernel",
+  "command": "gcc  -I/root/data/OS-24FALL-FDU/src -I/root/data/OS-24FALL-FDU/src/../musl/obj/include -I/root/data/OS-24FALL-FDU/src/../musl/include -I/root/data/OS-24FALL-FDU/src/../musl/arch/aarch64 -I/root/data/OS-24FALL-FDU/src/../musl/arch/generic  -Werror -Wall -Wextra     -fno-pie -fno-pic -fno-stack-protector     -fno-zero-initialized-in-bss     -Og -g -static -fno-builtin -nostdlib -nostdinc -ffreestanding -nostartfiles     -Wl,--whole-archive     -mgeneral-regs-only     -MMD -MP     -mlittle-endian -mcmodel=small -mno-outline-atomics     -mcpu=cortex-a72+nofp -mtune=cortex-a72 -DUSE_ARMVIRT -Wno-error=unused-parameter -std=gnu11 -o CMakeFiles/kernelx.dir/exec.c.o -c /root/data/OS-24FALL-FDU/src/kernel/exec.c",
+  "file": "/root/data/OS-24FALL-FDU/src/kernel/exec.c",
+  "output": "src/kernel/CMakeFiles/kernelx.dir/exec.c.o"
+},
+{
+  "directory": "/root/data/OS-24FALL-FDU/src/kernel",
+  "command": "gcc  -I/root/data/OS-24FALL-FDU/src -I/root/data/OS-24FALL-FDU/src/../musl/obj/include -I/root/data/OS-24FALL-FDU/src/../musl/include -I/root/data/OS-24FALL-FDU/src/../musl/arch/aarch64 -I/root/data/OS-24FALL-FDU/src/../musl/arch/generic  -Werror -Wall -Wextra     -fno-pie -fno-pic -fno-stack-protector     -fno-zero-initialized-in-bss     -Og -g -static -fno-builtin -nostdlib -nostdinc -ffreestanding -nostartfiles     -Wl,--whole-archive     -mgeneral-regs-only     -MMD -MP     -mlittle-endian -mcmodel=small -mno-outline-atomics     -mcpu=cortex-a72+nofp -mtune=cortex-a72 -DUSE_ARMVIRT -Wno-error=unused-parameter -std=gnu11 -o CMakeFiles/kernelx.dir/mem.c.o -c /root/data/OS-24FALL-FDU/src/kernel/mem.c",
+  "file": "/root/data/OS-24FALL-FDU/src/kernel/mem.c",
+  "output": "src/kernel/CMakeFiles/kernelx.dir/mem.c.o"
+},
+{
+  "directory": "/root/data/OS-24FALL-FDU/src/kernel",
+  "command": "gcc  -I/root/data/OS-24FALL-FDU/src -I/root/data/OS-24FALL-FDU/src/../musl/obj/include -I/root/data/OS-24FALL-FDU/src/../musl/include -I/root/data/OS-24FALL-FDU/src/../musl/arch/aarch64 -I/root/data/OS-24FALL-FDU/src/../musl/arch/generic  -Werror -Wall -Wextra     -fno-pie -fno-pic -fno-stack-protector     -fno-zero-initialized-in-bss     -Og -g -static -fno-builtin -nostdlib -nostdinc -ffreestanding -nostartfiles     -Wl,--whole-archive     -mgeneral-regs-only     -MMD -MP     -mlittle-endian -mcmodel=small -mno-outline-atomics     -mcpu=cortex-a72+nofp -mtune=cortex-a72 -DUSE_ARMVIRT -Wno-error=unused-parameter -std=gnu11 -o CMakeFiles/kernelx.dir/paging.c.o -c /root/data/OS-24FALL-FDU/src/kernel/paging.c",
+  "file": "/root/data/OS-24FALL-FDU/src/kernel/paging.c",
+  "output": "src/kernel/CMakeFiles/kernelx.dir/paging.c.o"
+},
+{
+  "directory": "/root/data/OS-24FALL-FDU/src/kernel",
+  "command": "gcc  -I/root/data/OS-24FALL-FDU/src -I/root/data/OS-24FALL-FDU/src/../musl/obj/include -I/root/data/OS-24FALL-FDU/src/../musl/include -I/root/data/OS-24FALL-FDU/src/../musl/arch/aarch64 -I/root/data/OS-24FALL-FDU/src/../musl/arch/generic  -Werror -Wall -Wextra     -fno-pie -fno-pic -fno-stack-protector     -fno-zero-initialized-in-bss     -Og -g -static -fno-builtin -nostdlib -nostdinc -ffreestanding -nostartfiles     -Wl,--whole-archive     -mgeneral-regs-only     -MMD -MP     -mlittle-endian -mcmodel=small -mno-outline-atomics     -mcpu=cortex-a72+nofp -mtune=cortex-a72 -DUSE_ARMVIRT -Wno-error=unused-parameter -std=gnu11 -o CMakeFiles/kernelx.dir/printk.c.o -c /root/data/OS-24FALL-FDU/src/kernel/printk.c",
+  "file": "/root/data/OS-24FALL-FDU/src/kernel/printk.c",
+  "output": "src/kernel/CMakeFiles/kernelx.dir/printk.c.o"
+},
+{
+  "directory": "/root/data/OS-24FALL-FDU/src/kernel",
+  "command": "gcc  -I/root/data/OS-24FALL-FDU/src -I/root/data/OS-24FALL-FDU/src/../musl/obj/include -I/root/data/OS-24FALL-FDU/src/../musl/include -I/root/data/OS-24FALL-FDU/src/../musl/arch/aarch64 -I/root/data/OS-24FALL-FDU/src/../musl/arch/generic  -Werror -Wall -Wextra     -fno-pie -fno-pic -fno-stack-protector     -fno-zero-initialized-in-bss     -Og -g -static -fno-builtin -nostdlib -nostdinc -ffreestanding -nostartfiles     -Wl,--whole-archive     -mgeneral-regs-only     -MMD -MP     -mlittle-endian -mcmodel=small -mno-outline-atomics     -mcpu=cortex-a72+nofp -mtune=cortex-a72 -DUSE_ARMVIRT -Wno-error=unused-parameter -std=gnu11 -o CMakeFiles/kernelx.dir/proc.c.o -c /root/data/OS-24FALL-FDU/src/kernel/proc.c",
+  "file": "/root/data/OS-24FALL-FDU/src/kernel/proc.c",
+  "output": "src/kernel/CMakeFiles/kernelx.dir/proc.c.o"
+},
+{
+  "directory": "/root/data/OS-24FALL-FDU/src/kernel",
+  "command": "gcc  -I/root/data/OS-24FALL-FDU/src -I/root/data/OS-24FALL-FDU/src/../musl/obj/include -I/root/data/OS-24FALL-FDU/src/../musl/include -I/root/data/OS-24FALL-FDU/src/../musl/arch/aarch64 -I/root/data/OS-24FALL-FDU/src/../musl/arch/generic  -Werror -Wall -Wextra     -fno-pie -fno-pic -fno-stack-protector     -fno-zero-initialized-in-bss     -Og -g -static -fno-builtin -nostdlib -nostdinc -ffreestanding -nostartfiles     -Wl,--whole-archive     -mgeneral-regs-only     -MMD -MP     -mlittle-endian -mcmodel=small -mno-outline-atomics     -mcpu=cortex-a72+nofp -mtune=cortex-a72 -DUSE_ARMVIRT -Wno-error=unused-parameter -std=gnu11 -o CMakeFiles/kernelx.dir/pt.c.o -c /root/data/OS-24FALL-FDU/src/kernel/pt.c",
+  "file": "/root/data/OS-24FALL-FDU/src/kernel/pt.c",
+  "output": "src/kernel/CMakeFiles/kernelx.dir/pt.c.o"
+},
+{
+  "directory": "/root/data/OS-24FALL-FDU/src/kernel",
+  "command": "gcc  -I/root/data/OS-24FALL-FDU/src -I/root/data/OS-24FALL-FDU/src/../musl/obj/include -I/root/data/OS-24FALL-FDU/src/../musl/include -I/root/data/OS-24FALL-FDU/src/../musl/arch/aarch64 -I/root/data/OS-24FALL-FDU/src/../musl/arch/generic  -Werror -Wall -Wextra     -fno-pie -fno-pic -fno-stack-protector     -fno-zero-initialized-in-bss     -Og -g -static -fno-builtin -nostdlib -nostdinc -ffreestanding -nostartfiles     -Wl,--whole-archive     -mgeneral-regs-only     -MMD -MP     -mlittle-endian -mcmodel=small -mno-outline-atomics     -mcpu=cortex-a72+nofp -mtune=cortex-a72 -DUSE_ARMVIRT -Wno-error=unused-parameter -std=gnu11 -o CMakeFiles/kernelx.dir/sched.c.o -c /root/data/OS-24FALL-FDU/src/kernel/sched.c",
+  "file": "/root/data/OS-24FALL-FDU/src/kernel/sched.c",
+  "output": "src/kernel/CMakeFiles/kernelx.dir/sched.c.o"
+},
+{
+  "directory": "/root/data/OS-24FALL-FDU/src/kernel",
+  "command": "gcc  -I/root/data/OS-24FALL-FDU/src -I/root/data/OS-24FALL-FDU/src/../musl/obj/include -I/root/data/OS-24FALL-FDU/src/../musl/include -I/root/data/OS-24FALL-FDU/src/../musl/arch/aarch64 -I/root/data/OS-24FALL-FDU/src/../musl/arch/generic  -Werror -Wall -Wextra     -fno-pie -fno-pic -fno-stack-protector     -fno-zero-initialized-in-bss     -Og -g -static -fno-builtin -nostdlib -nostdinc -ffreestanding -nostartfiles     -Wl,--whole-archive     -mgeneral-regs-only     -MMD -MP     -mlittle-endian -mcmodel=small -mno-outline-atomics     -mcpu=cortex-a72+nofp -mtune=cortex-a72 -DUSE_ARMVIRT -Wno-error=unused-parameter -std=gnu11 -o CMakeFiles/kernelx.dir/syscall.c.o -c /root/data/OS-24FALL-FDU/src/kernel/syscall.c",
+  "file": "/root/data/OS-24FALL-FDU/src/kernel/syscall.c",
+  "output": "src/kernel/CMakeFiles/kernelx.dir/syscall.c.o"
+},
+{
+  "directory": "/root/data/OS-24FALL-FDU/src/kernel",
+  "command": "gcc  -I/root/data/OS-24FALL-FDU/src -I/root/data/OS-24FALL-FDU/src/../musl/obj/include -I/root/data/OS-24FALL-FDU/src/../musl/include -I/root/data/OS-24FALL-FDU/src/../musl/arch/aarch64 -I/root/data/OS-24FALL-FDU/src/../musl/arch/generic  -Werror -Wall -Wextra     -fno-pie -fno-pic -fno-stack-protector     -fno-zero-initialized-in-bss     -Og -g -static -fno-builtin -nostdlib -nostdinc -ffreestanding -nostartfiles     -Wl,--whole-archive     -mgeneral-regs-only     -MMD -MP     -mlittle-endian -mcmodel=small -mno-outline-atomics     -mcpu=cortex-a72+nofp -mtune=cortex-a72 -DUSE_ARMVIRT -Wno-error=unused-parameter -std=gnu11 -o CMakeFiles/kernelx.dir/sysfile.c.o -c /root/data/OS-24FALL-FDU/src/kernel/sysfile.c",
+  "file": "/root/data/OS-24FALL-FDU/src/kernel/sysfile.c",
+  "output": "src/kernel/CMakeFiles/kernelx.dir/sysfile.c.o"
+},
+{
+  "directory": "/root/data/OS-24FALL-FDU/src/kernel",
+  "command": "gcc  -I/root/data/OS-24FALL-FDU/src -I/root/data/OS-24FALL-FDU/src/../musl/obj/include -I/root/data/OS-24FALL-FDU/src/../musl/include -I/root/data/OS-24FALL-FDU/src/../musl/arch/aarch64 -I/root/data/OS-24FALL-FDU/src/../musl/arch/generic  -Werror -Wall -Wextra     -fno-pie -fno-pic -fno-stack-protector     -fno-zero-initialized-in-bss     -Og -g -static -fno-builtin -nostdlib -nostdinc -ffreestanding -nostartfiles     -Wl,--whole-archive     -mgeneral-regs-only     -MMD -MP     -mlittle-endian -mcmodel=small -mno-outline-atomics     -mcpu=cortex-a72+nofp -mtune=cortex-a72 -DUSE_ARMVIRT -Wno-error=unused-parameter -std=gnu11 -o CMakeFiles/kernelx.dir/sysproc.c.o -c /root/data/OS-24FALL-FDU/src/kernel/sysproc.c",
+  "file": "/root/data/OS-24FALL-FDU/src/kernel/sysproc.c",
+  "output": "src/kernel/CMakeFiles/kernelx.dir/sysproc.c.o"
+},
+{
+  "directory": "/root/data/OS-24FALL-FDU/src/driver",
+  "command": "gcc  -I/root/data/OS-24FALL-FDU/src -I/root/data/OS-24FALL-FDU/src/../musl/obj/include -I/root/data/OS-24FALL-FDU/src/../musl/include -I/root/data/OS-24FALL-FDU/src/../musl/arch/aarch64 -I/root/data/OS-24FALL-FDU/src/../musl/arch/generic  -Werror -Wall -Wextra     -fno-pie -fno-pic -fno-stack-protector     -fno-zero-initialized-in-bss     -Og -g -static -fno-builtin -nostdlib -nostdinc -ffreestanding -nostartfiles     -Wl,--whole-archive     -mgeneral-regs-only     -MMD -MP     -mlittle-endian -mcmodel=small -mno-outline-atomics     -mcpu=cortex-a72+nofp -mtune=cortex-a72 -DUSE_ARMVIRT -Wno-error=unused-parameter -std=gnu11 -o CMakeFiles/driver.dir/clock.c.o -c /root/data/OS-24FALL-FDU/src/driver/clock.c",
+  "file": "/root/data/OS-24FALL-FDU/src/driver/clock.c",
+  "output": "src/driver/CMakeFiles/driver.dir/clock.c.o"
+},
+{
+  "directory": "/root/data/OS-24FALL-FDU/src/driver",
+  "command": "gcc  -I/root/data/OS-24FALL-FDU/src -I/root/data/OS-24FALL-FDU/src/../musl/obj/include -I/root/data/OS-24FALL-FDU/src/../musl/include -I/root/data/OS-24FALL-FDU/src/../musl/arch/aarch64 -I/root/data/OS-24FALL-FDU/src/../musl/arch/generic  -Werror -Wall -Wextra     -fno-pie -fno-pic -fno-stack-protector     -fno-zero-initialized-in-bss     -Og -g -static -fno-builtin -nostdlib -nostdinc -ffreestanding -nostartfiles     -Wl,--whole-archive     -mgeneral-regs-only     -MMD -MP     -mlittle-endian -mcmodel=small -mno-outline-atomics     -mcpu=cortex-a72+nofp -mtune=cortex-a72 -DUSE_ARMVIRT -Wno-error=unused-parameter -std=gnu11 -o CMakeFiles/driver.dir/gicv3.c.o -c /root/data/OS-24FALL-FDU/src/driver/gicv3.c",
+  "file": "/root/data/OS-24FALL-FDU/src/driver/gicv3.c",
+  "output": "src/driver/CMakeFiles/driver.dir/gicv3.c.o"
+},
+{
+  "directory": "/root/data/OS-24FALL-FDU/src/driver",
+  "command": "gcc  -I/root/data/OS-24FALL-FDU/src -I/root/data/OS-24FALL-FDU/src/../musl/obj/include -I/root/data/OS-24FALL-FDU/src/../musl/include -I/root/data/OS-24FALL-FDU/src/../musl/arch/aarch64 -I/root/data/OS-24FALL-FDU/src/../musl/arch/generic  -Werror -Wall -Wextra     -fno-pie -fno-pic -fno-stack-protector     -fno-zero-initialized-in-bss     -Og -g -static -fno-builtin -nostdlib -nostdinc -ffreestanding -nostartfiles     -Wl,--whole-archive     -mgeneral-regs-only     -MMD -MP     -mlittle-endian -mcmodel=small -mno-outline-atomics     -mcpu=cortex-a72+nofp -mtune=cortex-a72 -DUSE_ARMVIRT -Wno-error=unused-parameter -std=gnu11 -o CMakeFiles/driver.dir/interrupt.c.o -c /root/data/OS-24FALL-FDU/src/driver/interrupt.c",
+  "file": "/root/data/OS-24FALL-FDU/src/driver/interrupt.c",
+  "output": "src/driver/CMakeFiles/driver.dir/interrupt.c.o"
+},
+{
+  "directory": "/root/data/OS-24FALL-FDU/src/driver",
+  "command": "gcc  -I/root/data/OS-24FALL-FDU/src -I/root/data/OS-24FALL-FDU/src/../musl/obj/include -I/root/data/OS-24FALL-FDU/src/../musl/include -I/root/data/OS-24FALL-FDU/src/../musl/arch/aarch64 -I/root/data/OS-24FALL-FDU/src/../musl/arch/generic  -Werror -Wall -Wextra     -fno-pie -fno-pic -fno-stack-protector     -fno-zero-initialized-in-bss     -Og -g -static -fno-builtin -nostdlib -nostdinc -ffreestanding -nostartfiles     -Wl,--whole-archive     -mgeneral-regs-only     -MMD -MP     -mlittle-endian -mcmodel=small -mno-outline-atomics     -mcpu=cortex-a72+nofp -mtune=cortex-a72 -DUSE_ARMVIRT -Wno-error=unused-parameter -std=gnu11 -o CMakeFiles/driver.dir/timer.c.o -c /root/data/OS-24FALL-FDU/src/driver/timer.c",
+  "file": "/root/data/OS-24FALL-FDU/src/driver/timer.c",
+  "output": "src/driver/CMakeFiles/driver.dir/timer.c.o"
+},
+{
+  "directory": "/root/data/OS-24FALL-FDU/src/driver",
+  "command": "gcc  -I/root/data/OS-24FALL-FDU/src -I/root/data/OS-24FALL-FDU/src/../musl/obj/include -I/root/data/OS-24FALL-FDU/src/../musl/include -I/root/data/OS-24FALL-FDU/src/../musl/arch/aarch64 -I/root/data/OS-24FALL-FDU/src/../musl/arch/generic  -Werror -Wall -Wextra     -fno-pie -fno-pic -fno-stack-protector     -fno-zero-initialized-in-bss     -Og -g -static -fno-builtin -nostdlib -nostdinc -ffreestanding -nostartfiles     -Wl,--whole-archive     -mgeneral-regs-only     -MMD -MP     -mlittle-endian -mcmodel=small -mno-outline-atomics     -mcpu=cortex-a72+nofp -mtune=cortex-a72 -DUSE_ARMVIRT -Wno-error=unused-parameter -std=gnu11 -o CMakeFiles/driver.dir/uart.c.o -c /root/data/OS-24FALL-FDU/src/driver/uart.c",
+  "file": "/root/data/OS-24FALL-FDU/src/driver/uart.c",
+  "output": "src/driver/CMakeFiles/driver.dir/uart.c.o"
+},
+{
+  "directory": "/root/data/OS-24FALL-FDU/src/driver",
+  "command": "gcc  -I/root/data/OS-24FALL-FDU/src -I/root/data/OS-24FALL-FDU/src/../musl/obj/include -I/root/data/OS-24FALL-FDU/src/../musl/include -I/root/data/OS-24FALL-FDU/src/../musl/arch/aarch64 -I/root/data/OS-24FALL-FDU/src/../musl/arch/generic  -Werror -Wall -Wextra     -fno-pie -fno-pic -fno-stack-protector     -fno-zero-initialized-in-bss     -Og -g -static -fno-builtin -nostdlib -nostdinc -ffreestanding -nostartfiles     -Wl,--whole-archive     -mgeneral-regs-only     -MMD -MP     -mlittle-endian -mcmodel=small -mno-outline-atomics     -mcpu=cortex-a72+nofp -mtune=cortex-a72 -DUSE_ARMVIRT -Wno-error=unused-parameter -std=gnu11 -o CMakeFiles/driver.dir/virtio_blk.c.o -c /root/data/OS-24FALL-FDU/src/driver/virtio_blk.c",
+  "file": "/root/data/OS-24FALL-FDU/src/driver/virtio_blk.c",
+  "output": "src/driver/CMakeFiles/driver.dir/virtio_blk.c.o"
+},
+{
+  "directory": "/root/data/OS-24FALL-FDU/src/user",
+  "command": "gcc  -I/root/data/OS-24FALL-FDU/src -I/root/data/OS-24FALL-FDU/src/../musl/obj/include -I/root/data/OS-24FALL-FDU/src/../musl/include -I/root/data/OS-24FALL-FDU/src/../musl/arch/aarch64 -I/root/data/OS-24FALL-FDU/src/../musl/arch/generic -I/root/data/OS-24FALL-FDU/src/user/../../musl/obj/include -I/root/data/OS-24FALL-FDU/src/user/../../musl/arch/aarch64 -I/root/data/OS-24FALL-FDU/src/user/../../musl/arch/generic  -Werror -Wall -Wextra     -fno-pie -fno-pic -fno-stack-protector     -fno-zero-initialized-in-bss     -Og -g -static -fno-builtin -nostdlib -nostdinc -ffreestanding -nostartfiles     -Wl,--whole-archive     -mgeneral-regs-only     -MMD -MP     -mlittle-endian -mcmodel=small -mno-outline-atomics     -mcpu=cortex-a72+nofp -mtune=cortex-a72 -DUSE_ARMVIRT -Wno-error=unused-parameter -o CMakeFiles/user.dir/init.S.o -c /root/data/OS-24FALL-FDU/src/user/init.S",
+  "file": "/root/data/OS-24FALL-FDU/src/user/init.S",
+  "output": "src/user/CMakeFiles/user.dir/init.S.o"
+},
+{
+  "directory": "/root/data/OS-24FALL-FDU/src/user",
+  "command": "gcc  -I/root/data/OS-24FALL-FDU/src -I/root/data/OS-24FALL-FDU/src/../musl/obj/include -I/root/data/OS-24FALL-FDU/src/../musl/include -I/root/data/OS-24FALL-FDU/src/../musl/arch/aarch64 -I/root/data/OS-24FALL-FDU/src/../musl/arch/generic -I/root/data/OS-24FALL-FDU/src/user/../../musl/obj/include -I/root/data/OS-24FALL-FDU/src/user/../../musl/arch/aarch64 -I/root/data/OS-24FALL-FDU/src/user/../../musl/arch/generic  -Werror -Wall -Wextra     -fno-pie -fno-pic -fno-stack-protector     -fno-zero-initialized-in-bss     -Og -g -static -fno-builtin -nostdlib -nostdinc -ffreestanding -nostartfiles     -Wl,--whole-archive     -mgeneral-regs-only     -MMD -MP     -mlittle-endian -mcmodel=small -mno-outline-atomics     -mcpu=cortex-a72+nofp -mtune=cortex-a72 -DUSE_ARMVIRT -Wno-error=unused-parameter -o CMakeFiles/user.dir/loop.S.o -c /root/data/OS-24FALL-FDU/src/user/loop.S",
+  "file": "/root/data/OS-24FALL-FDU/src/user/loop.S",
+  "output": "src/user/CMakeFiles/user.dir/loop.S.o"
+},
+{
+  "directory": "/root/data/OS-24FALL-FDU/src/user",
+  "command": "gcc  -I/root/data/OS-24FALL-FDU/src -I/root/data/OS-24FALL-FDU/src/../musl/obj/include -I/root/data/OS-24FALL-FDU/src/../musl/include -I/root/data/OS-24FALL-FDU/src/../musl/arch/aarch64 -I/root/data/OS-24FALL-FDU/src/../musl/arch/generic -I/root/data/OS-24FALL-FDU/src/user/../../musl/obj/include -I/root/data/OS-24FALL-FDU/src/user/../../musl/arch/aarch64 -I/root/data/OS-24FALL-FDU/src/user/../../musl/arch/generic -specs /root/data/OS-24FALL-FDU/src/user/../../musl-gcc.specs -std=gnu99  -MMD -MP -static -fno-plt -fno-pic -fpie -z max-page-size=4096 -s -std=gnu11 -o CMakeFiles/cat.dir/cat/main.c.o -c /root/data/OS-24FALL-FDU/src/user/cat/main.c",
+  "file": "/root/data/OS-24FALL-FDU/src/user/cat/main.c",
+  "output": "src/user/CMakeFiles/cat.dir/cat/main.c.o"
+},
+{
+  "directory": "/root/data/OS-24FALL-FDU/src/user",
+  "command": "gcc  -I/root/data/OS-24FALL-FDU/src -I/root/data/OS-24FALL-FDU/src/../musl/obj/include -I/root/data/OS-24FALL-FDU/src/../musl/include -I/root/data/OS-24FALL-FDU/src/../musl/arch/aarch64 -I/root/data/OS-24FALL-FDU/src/../musl/arch/generic -I/root/data/OS-24FALL-FDU/src/user/../../musl/obj/include -I/root/data/OS-24FALL-FDU/src/user/../../musl/arch/aarch64 -I/root/data/OS-24FALL-FDU/src/user/../../musl/arch/generic -specs /root/data/OS-24FALL-FDU/src/user/../../musl-gcc.specs -std=gnu99  -MMD -MP -static -fno-plt -fno-pic -fpie -z max-page-size=4096 -s -std=gnu11 -o CMakeFiles/echo.dir/echo/main.c.o -c /root/data/OS-24FALL-FDU/src/user/echo/main.c",
+  "file": "/root/data/OS-24FALL-FDU/src/user/echo/main.c",
+  "output": "src/user/CMakeFiles/echo.dir/echo/main.c.o"
+},
+{
+  "directory": "/root/data/OS-24FALL-FDU/src/user",
+  "command": "gcc  -I/root/data/OS-24FALL-FDU/src -I/root/data/OS-24FALL-FDU/src/../musl/obj/include -I/root/data/OS-24FALL-FDU/src/../musl/include -I/root/data/OS-24FALL-FDU/src/../musl/arch/aarch64 -I/root/data/OS-24FALL-FDU/src/../musl/arch/generic -I/root/data/OS-24FALL-FDU/src/user/../../musl/obj/include -I/root/data/OS-24FALL-FDU/src/user/../../musl/arch/aarch64 -I/root/data/OS-24FALL-FDU/src/user/../../musl/arch/generic -specs /root/data/OS-24FALL-FDU/src/user/../../musl-gcc.specs -std=gnu99  -MMD -MP -static -fno-plt -fno-pic -fpie -z max-page-size=4096 -s -std=gnu11 -o CMakeFiles/init.dir/init/main.c.o -c /root/data/OS-24FALL-FDU/src/user/init/main.c",
+  "file": "/root/data/OS-24FALL-FDU/src/user/init/main.c",
+  "output": "src/user/CMakeFiles/init.dir/init/main.c.o"
+},
+{
+  "directory": "/root/data/OS-24FALL-FDU/src/user",
+  "command": "gcc  -I/root/data/OS-24FALL-FDU/src -I/root/data/OS-24FALL-FDU/src/../musl/obj/include -I/root/data/OS-24FALL-FDU/src/../musl/include -I/root/data/OS-24FALL-FDU/src/../musl/arch/aarch64 -I/root/data/OS-24FALL-FDU/src/../musl/arch/generic -I/root/data/OS-24FALL-FDU/src/user/../../musl/obj/include -I/root/data/OS-24FALL-FDU/src/user/../../musl/arch/aarch64 -I/root/data/OS-24FALL-FDU/src/user/../../musl/arch/generic -specs /root/data/OS-24FALL-FDU/src/user/../../musl-gcc.specs -std=gnu99  -MMD -MP -static -fno-plt -fno-pic -fpie -z max-page-size=4096 -s -std=gnu11 -o CMakeFiles/ls.dir/ls/main.c.o -c /root/data/OS-24FALL-FDU/src/user/ls/main.c",
+  "file": "/root/data/OS-24FALL-FDU/src/user/ls/main.c",
+  "output": "src/user/CMakeFiles/ls.dir/ls/main.c.o"
+},
+{
+  "directory": "/root/data/OS-24FALL-FDU/src/user",
+  "command": "gcc  -I/root/data/OS-24FALL-FDU/src -I/root/data/OS-24FALL-FDU/src/../musl/obj/include -I/root/data/OS-24FALL-FDU/src/../musl/include -I/root/data/OS-24FALL-FDU/src/../musl/arch/aarch64 -I/root/data/OS-24FALL-FDU/src/../musl/arch/generic -I/root/data/OS-24FALL-FDU/src/user/../../musl/obj/include -I/root/data/OS-24FALL-FDU/src/user/../../musl/arch/aarch64 -I/root/data/OS-24FALL-FDU/src/user/../../musl/arch/generic -specs /root/data/OS-24FALL-FDU/src/user/../../musl-gcc.specs -std=gnu99  -MMD -MP -static -fno-plt -fno-pic -fpie -z max-page-size=4096 -s -std=gnu11 -o CMakeFiles/sh.dir/sh/main.c.o -c /root/data/OS-24FALL-FDU/src/user/sh/main.c",
+  "file": "/root/data/OS-24FALL-FDU/src/user/sh/main.c",
+  "output": "src/user/CMakeFiles/sh.dir/sh/main.c.o"
+},
+{
+  "directory": "/root/data/OS-24FALL-FDU/src/user",
+  "command": "gcc  -I/root/data/OS-24FALL-FDU/src -I/root/data/OS-24FALL-FDU/src/../musl/obj/include -I/root/data/OS-24FALL-FDU/src/../musl/include -I/root/data/OS-24FALL-FDU/src/../musl/arch/aarch64 -I/root/data/OS-24FALL-FDU/src/../musl/arch/generic -I/root/data/OS-24FALL-FDU/src/user/../../musl/obj/include -I/root/data/OS-24FALL-FDU/src/user/../../musl/arch/aarch64 -I/root/data/OS-24FALL-FDU/src/user/../../musl/arch/generic -specs /root/data/OS-24FALL-FDU/src/user/../../musl-gcc.specs -std=gnu99  -MMD -MP -static -fno-plt -fno-pic -fpie -z max-page-size=4096 -s -std=gnu11 -o CMakeFiles/mkdir.dir/mkdir/main.c.o -c /root/data/OS-24FALL-FDU/src/user/mkdir/main.c",
+  "file": "/root/data/OS-24FALL-FDU/src/user/mkdir/main.c",
+  "output": "src/user/CMakeFiles/mkdir.dir/mkdir/main.c.o"
+},
+{
+  "directory": "/root/data/OS-24FALL-FDU/src/user",
+  "command": "gcc  -I/root/data/OS-24FALL-FDU/src -I/root/data/OS-24FALL-FDU/src/../musl/obj/include -I/root/data/OS-24FALL-FDU/src/../musl/include -I/root/data/OS-24FALL-FDU/src/../musl/arch/aarch64 -I/root/data/OS-24FALL-FDU/src/../musl/arch/generic -I/root/data/OS-24FALL-FDU/src/user/../../musl/obj/include -I/root/data/OS-24FALL-FDU/src/user/../../musl/arch/aarch64 -I/root/data/OS-24FALL-FDU/src/user/../../musl/arch/generic -specs /root/data/OS-24FALL-FDU/src/user/../../musl-gcc.specs -std=gnu99  -MMD -MP -static -fno-plt -fno-pic -fpie -z max-page-size=4096 -s -std=gnu11 -o CMakeFiles/usertests.dir/usertests/main.c.o -c /root/data/OS-24FALL-FDU/src/user/usertests/main.c",
+  "file": "/root/data/OS-24FALL-FDU/src/user/usertests/main.c",
+  "output": "src/user/CMakeFiles/usertests.dir/usertests/main.c.o"
+},
+{
+  "directory": "/root/data/OS-24FALL-FDU/src/user",
+  "command": "gcc  -I/root/data/OS-24FALL-FDU/src -I/root/data/OS-24FALL-FDU/src/../musl/obj/include -I/root/data/OS-24FALL-FDU/src/../musl/include -I/root/data/OS-24FALL-FDU/src/../musl/arch/aarch64 -I/root/data/OS-24FALL-FDU/src/../musl/arch/generic -I/root/data/OS-24FALL-FDU/src/user/../../musl/obj/include -I/root/data/OS-24FALL-FDU/src/user/../../musl/arch/aarch64 -I/root/data/OS-24FALL-FDU/src/user/../../musl/arch/generic -specs /root/data/OS-24FALL-FDU/src/user/../../musl-gcc.specs -std=gnu99  -MMD -MP -static -fno-plt -fno-pic -fpie -z max-page-size=4096 -s -std=gnu11 -o CMakeFiles/mkfs.dir/mkfs/main.c.o -c /root/data/OS-24FALL-FDU/src/user/mkfs/main.c",
+  "file": "/root/data/OS-24FALL-FDU/src/user/mkfs/main.c",
+  "output": "src/user/CMakeFiles/mkfs.dir/mkfs/main.c.o"
+},
+{
+  "directory": "/root/data/OS-24FALL-FDU/src/user",
+  "command": "gcc  -I/root/data/OS-24FALL-FDU/src -I/root/data/OS-24FALL-FDU/src/../musl/obj/include -I/root/data/OS-24FALL-FDU/src/../musl/include -I/root/data/OS-24FALL-FDU/src/../musl/arch/aarch64 -I/root/data/OS-24FALL-FDU/src/../musl/arch/generic -I/root/data/OS-24FALL-FDU/src/user/../../musl/obj/include -I/root/data/OS-24FALL-FDU/src/user/../../musl/arch/aarch64 -I/root/data/OS-24FALL-FDU/src/user/../../musl/arch/generic -specs /root/data/OS-24FALL-FDU/src/user/../../musl-gcc.specs -std=gnu99  -MMD -MP -static -fno-plt -fno-pic -fpie -z max-page-size=4096 -s -std=gnu11 -o CMakeFiles/mmaptest.dir/mmaptest/main.c.o -c /root/data/OS-24FALL-FDU/src/user/mmaptest/main.c",
+  "file": "/root/data/OS-24FALL-FDU/src/user/mmaptest/main.c",
+  "output": "src/user/CMakeFiles/mmaptest.dir/mmaptest/main.c.o"
+},
+{
+  "directory": "/root/data/OS-24FALL-FDU/src/test",
+  "command": "gcc  -I/root/data/OS-24FALL-FDU/src -I/root/data/OS-24FALL-FDU/src/../musl/obj/include -I/root/data/OS-24FALL-FDU/src/../musl/include -I/root/data/OS-24FALL-FDU/src/../musl/arch/aarch64 -I/root/data/OS-24FALL-FDU/src/../musl/arch/generic  -Werror -Wall -Wextra     -fno-pie -fno-pic -fno-stack-protector     -fno-zero-initialized-in-bss     -Og -g -static -fno-builtin -nostdlib -nostdinc -ffreestanding -nostartfiles     -Wl,--whole-archive     -mgeneral-regs-only     -MMD -MP     -mlittle-endian -mcmodel=small -mno-outline-atomics     -mcpu=cortex-a72+nofp -mtune=cortex-a72 -DUSE_ARMVIRT -Wno-error=unused-parameter -std=gnu11 -o CMakeFiles/test.dir/io_test.c.o -c /root/data/OS-24FALL-FDU/src/test/io_test.c",
+  "file": "/root/data/OS-24FALL-FDU/src/test/io_test.c",
+  "output": "src/test/CMakeFiles/test.dir/io_test.c.o"
+},
+{
+  "directory": "/root/data/OS-24FALL-FDU/src/test",
+  "command": "gcc  -I/root/data/OS-24FALL-FDU/src -I/root/data/OS-24FALL-FDU/src/../musl/obj/include -I/root/data/OS-24FALL-FDU/src/../musl/include -I/root/data/OS-24FALL-FDU/src/../musl/arch/aarch64 -I/root/data/OS-24FALL-FDU/src/../musl/arch/generic  -Werror -Wall -Wextra     -fno-pie -fno-pic -fno-stack-protector     -fno-zero-initialized-in-bss     -Og -g -static -fno-builtin -nostdlib -nostdinc -ffreestanding -nostartfiles     -Wl,--whole-archive     -mgeneral-regs-only     -MMD -MP     -mlittle-endian -mcmodel=small -mno-outline-atomics     -mcpu=cortex-a72+nofp -mtune=cortex-a72 -DUSE_ARMVIRT -Wno-error=unused-parameter -std=gnu11 -o CMakeFiles/test.dir/kalloc_test.c.o -c /root/data/OS-24FALL-FDU/src/test/kalloc_test.c",
+  "file": "/root/data/OS-24FALL-FDU/src/test/kalloc_test.c",
+  "output": "src/test/CMakeFiles/test.dir/kalloc_test.c.o"
+},
+{
+  "directory": "/root/data/OS-24FALL-FDU/src/test",
+  "command": "gcc  -I/root/data/OS-24FALL-FDU/src -I/root/data/OS-24FALL-FDU/src/../musl/obj/include -I/root/data/OS-24FALL-FDU/src/../musl/include -I/root/data/OS-24FALL-FDU/src/../musl/arch/aarch64 -I/root/data/OS-24FALL-FDU/src/../musl/arch/generic  -Werror -Wall -Wextra     -fno-pie -fno-pic -fno-stack-protector     -fno-zero-initialized-in-bss     -Og -g -static -fno-builtin -nostdlib -nostdinc -ffreestanding -nostartfiles     -Wl,--whole-archive     -mgeneral-regs-only     -MMD -MP     -mlittle-endian -mcmodel=small -mno-outline-atomics     -mcpu=cortex-a72+nofp -mtune=cortex-a72 -DUSE_ARMVIRT -Wno-error=unused-parameter -std=gnu11 -o CMakeFiles/test.dir/proc_test.c.o -c /root/data/OS-24FALL-FDU/src/test/proc_test.c",
+  "file": "/root/data/OS-24FALL-FDU/src/test/proc_test.c",
+  "output": "src/test/CMakeFiles/test.dir/proc_test.c.o"
+},
+{
+  "directory": "/root/data/OS-24FALL-FDU/src/test",
+  "command": "gcc  -I/root/data/OS-24FALL-FDU/src -I/root/data/OS-24FALL-FDU/src/../musl/obj/include -I/root/data/OS-24FALL-FDU/src/../musl/include -I/root/data/OS-24FALL-FDU/src/../musl/arch/aarch64 -I/root/data/OS-24FALL-FDU/src/../musl/arch/generic  -Werror -Wall -Wextra     -fno-pie -fno-pic -fno-stack-protector     -fno-zero-initialized-in-bss     -Og -g -static -fno-builtin -nostdlib -nostdinc -ffreestanding -nostartfiles     -Wl,--whole-archive     -mgeneral-regs-only     -MMD -MP     -mlittle-endian -mcmodel=small -mno-outline-atomics     -mcpu=cortex-a72+nofp -mtune=cortex-a72 -DUSE_ARMVIRT -Wno-error=unused-parameter -std=gnu11 -o CMakeFiles/test.dir/rand.c.o -c /root/data/OS-24FALL-FDU/src/test/rand.c",
+  "file": "/root/data/OS-24FALL-FDU/src/test/rand.c",
+  "output": "src/test/CMakeFiles/test.dir/rand.c.o"
+},
+{
+  "directory": "/root/data/OS-24FALL-FDU/src/test",
+  "command": "gcc  -I/root/data/OS-24FALL-FDU/src -I/root/data/OS-24FALL-FDU/src/../musl/obj/include -I/root/data/OS-24FALL-FDU/src/../musl/include -I/root/data/OS-24FALL-FDU/src/../musl/arch/aarch64 -I/root/data/OS-24FALL-FDU/src/../musl/arch/generic  -Werror -Wall -Wextra     -fno-pie -fno-pic -fno-stack-protector     -fno-zero-initialized-in-bss     -Og -g -static -fno-builtin -nostdlib -nostdinc -ffreestanding -nostartfiles     -Wl,--whole-archive     -mgeneral-regs-only     -MMD -MP     -mlittle-endian -mcmodel=small -mno-outline-atomics     -mcpu=cortex-a72+nofp -mtune=cortex-a72 -DUSE_ARMVIRT -Wno-error=unused-parameter -std=gnu11 -o CMakeFiles/test.dir/rbtree_test.c.o -c /root/data/OS-24FALL-FDU/src/test/rbtree_test.c",
+  "file": "/root/data/OS-24FALL-FDU/src/test/rbtree_test.c",
+  "output": "src/test/CMakeFiles/test.dir/rbtree_test.c.o"
+},
+{
+  "directory": "/root/data/OS-24FALL-FDU/src/test",
+  "command": "gcc  -I/root/data/OS-24FALL-FDU/src -I/root/data/OS-24FALL-FDU/src/../musl/obj/include -I/root/data/OS-24FALL-FDU/src/../musl/include -I/root/data/OS-24FALL-FDU/src/../musl/arch/aarch64 -I/root/data/OS-24FALL-FDU/src/../musl/arch/generic  -Werror -Wall -Wextra     -fno-pie -fno-pic -fno-stack-protector     -fno-zero-initialized-in-bss     -Og -g -static -fno-builtin -nostdlib -nostdinc -ffreestanding -nostartfiles     -Wl,--whole-archive     -mgeneral-regs-only     -MMD -MP     -mlittle-endian -mcmodel=small -mno-outline-atomics     -mcpu=cortex-a72+nofp -mtune=cortex-a72 -DUSE_ARMVIRT -Wno-error=unused-parameter -std=gnu11 -o CMakeFiles/test.dir/user_proc_test.c.o -c /root/data/OS-24FALL-FDU/src/test/user_proc_test.c",
+  "file": "/root/data/OS-24FALL-FDU/src/test/user_proc_test.c",
+  "output": "src/test/CMakeFiles/test.dir/user_proc_test.c.o"
+},
+{
+  "directory": "/root/data/OS-24FALL-FDU/src/fs",
+  "command": "gcc  -I/root/data/OS-24FALL-FDU/src -I/root/data/OS-24FALL-FDU/src/../musl/obj/include -I/root/data/OS-24FALL-FDU/src/../musl/include -I/root/data/OS-24FALL-FDU/src/../musl/arch/aarch64 -I/root/data/OS-24FALL-FDU/src/../musl/arch/generic  -Werror -Wall -Wextra     -fno-pie -fno-pic -fno-stack-protector     -fno-zero-initialized-in-bss     -Og -g -static -fno-builtin -nostdlib -nostdinc -ffreestanding -nostartfiles     -Wl,--whole-archive     -mgeneral-regs-only     -MMD -MP     -mlittle-endian -mcmodel=small -mno-outline-atomics     -mcpu=cortex-a72+nofp -mtune=cortex-a72 -DUSE_ARMVIRT -Wno-error=unused-parameter -std=gnu11 -o CMakeFiles/fs.dir/block_device.c.o -c /root/data/OS-24FALL-FDU/src/fs/block_device.c",
+  "file": "/root/data/OS-24FALL-FDU/src/fs/block_device.c",
+  "output": "src/fs/CMakeFiles/fs.dir/block_device.c.o"
+},
+{
+  "directory": "/root/data/OS-24FALL-FDU/src/fs",
+  "command": "gcc  -I/root/data/OS-24FALL-FDU/src -I/root/data/OS-24FALL-FDU/src/../musl/obj/include -I/root/data/OS-24FALL-FDU/src/../musl/include -I/root/data/OS-24FALL-FDU/src/../musl/arch/aarch64 -I/root/data/OS-24FALL-FDU/src/../musl/arch/generic  -Werror -Wall -Wextra     -fno-pie -fno-pic -fno-stack-protector     -fno-zero-initialized-in-bss     -Og -g -static -fno-builtin -nostdlib -nostdinc -ffreestanding -nostartfiles     -Wl,--whole-archive     -mgeneral-regs-only     -MMD -MP     -mlittle-endian -mcmodel=small -mno-outline-atomics     -mcpu=cortex-a72+nofp -mtune=cortex-a72 -DUSE_ARMVIRT -Wno-error=unused-parameter -std=gnu11 -o CMakeFiles/fs.dir/cache.c.o -c /root/data/OS-24FALL-FDU/src/fs/cache.c",
+  "file": "/root/data/OS-24FALL-FDU/src/fs/cache.c",
+  "output": "src/fs/CMakeFiles/fs.dir/cache.c.o"
+},
+{
+  "directory": "/root/data/OS-24FALL-FDU/src/fs",
+  "command": "gcc  -I/root/data/OS-24FALL-FDU/src -I/root/data/OS-24FALL-FDU/src/../musl/obj/include -I/root/data/OS-24FALL-FDU/src/../musl/include -I/root/data/OS-24FALL-FDU/src/../musl/arch/aarch64 -I/root/data/OS-24FALL-FDU/src/../musl/arch/generic  -Werror -Wall -Wextra     -fno-pie -fno-pic -fno-stack-protector     -fno-zero-initialized-in-bss     -Og -g -static -fno-builtin -nostdlib -nostdinc -ffreestanding -nostartfiles     -Wl,--whole-archive     -mgeneral-regs-only     -MMD -MP     -mlittle-endian -mcmodel=small -mno-outline-atomics     -mcpu=cortex-a72+nofp -mtune=cortex-a72 -DUSE_ARMVIRT -Wno-error=unused-parameter -std=gnu11 -o CMakeFiles/fs.dir/file.c.o -c /root/data/OS-24FALL-FDU/src/fs/file.c",
+  "file": "/root/data/OS-24FALL-FDU/src/fs/file.c",
+  "output": "src/fs/CMakeFiles/fs.dir/file.c.o"
+},
+{
+  "directory": "/root/data/OS-24FALL-FDU/src/fs",
+  "command": "gcc  -I/root/data/OS-24FALL-FDU/src -I/root/data/OS-24FALL-FDU/src/../musl/obj/include -I/root/data/OS-24FALL-FDU/src/../musl/include -I/root/data/OS-24FALL-FDU/src/../musl/arch/aarch64 -I/root/data/OS-24FALL-FDU/src/../musl/arch/generic  -Werror -Wall -Wextra     -fno-pie -fno-pic -fno-stack-protector     -fno-zero-initialized-in-bss     -Og -g -static -fno-builtin -nostdlib -nostdinc -ffreestanding -nostartfiles     -Wl,--whole-archive     -mgeneral-regs-only     -MMD -MP     -mlittle-endian -mcmodel=small -mno-outline-atomics     -mcpu=cortex-a72+nofp -mtune=cortex-a72 -DUSE_ARMVIRT -Wno-error=unused-parameter -std=gnu11 -o CMakeFiles/fs.dir/fs.c.o -c /root/data/OS-24FALL-FDU/src/fs/fs.c",
+  "file": "/root/data/OS-24FALL-FDU/src/fs/fs.c",
+  "output": "src/fs/CMakeFiles/fs.dir/fs.c.o"
+},
+{
+  "directory": "/root/data/OS-24FALL-FDU/src/fs",
+  "command": "gcc  -I/root/data/OS-24FALL-FDU/src -I/root/data/OS-24FALL-FDU/src/../musl/obj/include -I/root/data/OS-24FALL-FDU/src/../musl/include -I/root/data/OS-24FALL-FDU/src/../musl/arch/aarch64 -I/root/data/OS-24FALL-FDU/src/../musl/arch/generic  -Werror -Wall -Wextra     -fno-pie -fno-pic -fno-stack-protector     -fno-zero-initialized-in-bss     -Og -g -static -fno-builtin -nostdlib -nostdinc -ffreestanding -nostartfiles     -Wl,--whole-archive     -mgeneral-regs-only     -MMD -MP     -mlittle-endian -mcmodel=small -mno-outline-atomics     -mcpu=cortex-a72+nofp -mtune=cortex-a72 -DUSE_ARMVIRT -Wno-error=unused-parameter -std=gnu11 -o CMakeFiles/fs.dir/inode.c.o -c /root/data/OS-24FALL-FDU/src/fs/inode.c",
+  "file": "/root/data/OS-24FALL-FDU/src/fs/inode.c",
+  "output": "src/fs/CMakeFiles/fs.dir/inode.c.o"
+},
+{
+  "directory": "/root/data/OS-24FALL-FDU/src/fs",
+  "command": "gcc  -I/root/data/OS-24FALL-FDU/src -I/root/data/OS-24FALL-FDU/src/../musl/obj/include -I/root/data/OS-24FALL-FDU/src/../musl/include -I/root/data/OS-24FALL-FDU/src/../musl/arch/aarch64 -I/root/data/OS-24FALL-FDU/src/../musl/arch/generic  -Werror -Wall -Wextra     -fno-pie -fno-pic -fno-stack-protector     -fno-zero-initialized-in-bss     -Og -g -static -fno-builtin -nostdlib -nostdinc -ffreestanding -nostartfiles     -Wl,--whole-archive     -mgeneral-regs-only     -MMD -MP     -mlittle-endian -mcmodel=small -mno-outline-atomics     -mcpu=cortex-a72+nofp -mtune=cortex-a72 -DUSE_ARMVIRT -Wno-error=unused-parameter -std=gnu11 -o CMakeFiles/fs.dir/pipe.c.o -c /root/data/OS-24FALL-FDU/src/fs/pipe.c",
+  "file": "/root/data/OS-24FALL-FDU/src/fs/pipe.c",
+  "output": "src/fs/CMakeFiles/fs.dir/pipe.c.o"
+}
+]
