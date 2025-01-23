@@ -1,0 +1,6 @@
+/root/data/OS-24FALL-FDU/src/fs/test/build/CMakeFiles/mock.dir
+/root/data/OS-24FALL-FDU/src/fs/test/build/CMakeFiles/fs.dir
+/root/data/OS-24FALL-FDU/src/fs/test/build/CMakeFiles/inode_test.dir
+/root/data/OS-24FALL-FDU/src/fs/test/build/CMakeFiles/cache_test.dir
+/root/data/OS-24FALL-FDU/src/fs/test/build/CMakeFiles/edit_cache.dir
+/root/data/OS-24FALL-FDU/src/fs/test/build/CMakeFiles/rebuild_cache.dir

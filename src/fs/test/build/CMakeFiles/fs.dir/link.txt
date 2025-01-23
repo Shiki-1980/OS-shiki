@@ -1,0 +1,2 @@
+/usr/bin/ar qc libfs.a "CMakeFiles/fs.dir/root/data/OS-24FALL-FDU/src/fs/block_device.c.o" "CMakeFiles/fs.dir/root/data/OS-24FALL-FDU/src/fs/cache.c.o" "CMakeFiles/fs.dir/root/data/OS-24FALL-FDU/src/fs/file.c.o" "CMakeFiles/fs.dir/root/data/OS-24FALL-FDU/src/fs/fs.c.o" "CMakeFiles/fs.dir/root/data/OS-24FALL-FDU/src/fs/inode.c.o" "CMakeFiles/fs.dir/root/data/OS-24FALL-FDU/src/fs/pipe.c.o" CMakeFiles/fs.dir/instrument.c.o
+/usr/bin/ranlib libfs.a

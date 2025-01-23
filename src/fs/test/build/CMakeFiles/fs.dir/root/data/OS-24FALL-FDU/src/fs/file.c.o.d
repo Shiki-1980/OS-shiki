@@ -1,0 +1,50 @@
+CMakeFiles/fs.dir/root/data/OS-24FALL-FDU/src/fs/file.c.o: \
+ /root/data/OS-24FALL-FDU/src/fs/file.c /usr/include/stdc-predef.h \
+ /root/data/OS-24FALL-FDU/src/fs/file.h \
+ /root/data/OS-24FALL-FDU/src/fs/test/../../common/defines.h \
+ /root/data/OS-24FALL-FDU/src/fs/test/../../common/sem.h \
+ /root/data/OS-24FALL-FDU/src/fs/test/../../common/list.h \
+ /root/data/OS-24FALL-FDU/src/fs/test/../../common/spinlock.h \
+ /root/data/OS-24FALL-FDU/src/fs/test/../../aarch64/intrinsic.h \
+ /root/data/OS-24FALL-FDU/src/fs/test/../../fs/defines.h \
+ /root/data/OS-24FALL-FDU/src/fs/test/../../fs/fs.h \
+ /root/data/OS-24FALL-FDU/src/fs/test/../../fs/inode.h \
+ /root/data/OS-24FALL-FDU/src/fs/test/../../common/rc.h \
+ /root/data/OS-24FALL-FDU/src/fs/test/../../fs/cache.h \
+ /root/data/OS-24FALL-FDU/src/fs/test/../../fs/block_device.h \
+ /usr/include/aarch64-linux-gnu/sys/stat.h /usr/include/features.h \
+ /usr/include/features-time64.h \
+ /usr/include/aarch64-linux-gnu/bits/wordsize.h \
+ /usr/include/aarch64-linux-gnu/bits/timesize.h \
+ /usr/include/aarch64-linux-gnu/sys/cdefs.h \
+ /usr/include/aarch64-linux-gnu/bits/long-double.h \
+ /usr/include/aarch64-linux-gnu/gnu/stubs.h \
+ /usr/include/aarch64-linux-gnu/gnu/stubs-lp64.h \
+ /usr/include/aarch64-linux-gnu/bits/types.h \
+ /usr/include/aarch64-linux-gnu/bits/typesizes.h \
+ /usr/include/aarch64-linux-gnu/bits/time64.h \
+ /usr/include/aarch64-linux-gnu/bits/types/struct_timespec.h \
+ /usr/include/aarch64-linux-gnu/bits/endian.h \
+ /usr/include/aarch64-linux-gnu/bits/endianness.h \
+ /usr/include/aarch64-linux-gnu/bits/types/time_t.h \
+ /usr/include/aarch64-linux-gnu/bits/stat.h \
+ /usr/include/aarch64-linux-gnu/bits/struct_stat.h \
+ /root/data/OS-24FALL-FDU/src/fs/test/../../kernel/mem.h \
+ /root/data/OS-24FALL-FDU/src/fs/test/../../aarch64/mmu.h \
+ /usr/include/stdio.h \
+ /usr/include/aarch64-linux-gnu/bits/libc-header-start.h \
+ /usr/lib/gcc/aarch64-linux-gnu/13/include/stddef.h \
+ /usr/lib/gcc/aarch64-linux-gnu/13/include/stdarg.h \
+ /usr/include/aarch64-linux-gnu/bits/types/__fpos_t.h \
+ /usr/include/aarch64-linux-gnu/bits/types/__mbstate_t.h \
+ /usr/include/aarch64-linux-gnu/bits/types/__fpos64_t.h \
+ /usr/include/aarch64-linux-gnu/bits/types/__FILE.h \
+ /usr/include/aarch64-linux-gnu/bits/types/FILE.h \
+ /usr/include/aarch64-linux-gnu/bits/types/struct_FILE.h \
+ /usr/include/aarch64-linux-gnu/bits/types/cookie_io_functions_t.h \
+ /usr/include/aarch64-linux-gnu/bits/stdio_lim.h \
+ /usr/include/aarch64-linux-gnu/bits/floatn.h \
+ /usr/include/aarch64-linux-gnu/bits/floatn-common.h \
+ /usr/include/aarch64-linux-gnu/bits/stdio2-decl.h \
+ /usr/include/aarch64-linux-gnu/bits/stdio.h \
+ /usr/include/aarch64-linux-gnu/bits/stdio2.h
