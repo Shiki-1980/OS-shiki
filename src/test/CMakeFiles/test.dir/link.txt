@@ -1,0 +1,2 @@
+/usr/bin/ar qc libtest.a CMakeFiles/test.dir/io_test.c.o CMakeFiles/test.dir/kalloc_test.c.o CMakeFiles/test.dir/proc_test.c.o CMakeFiles/test.dir/rand.c.o CMakeFiles/test.dir/rbtree_test.c.o CMakeFiles/test.dir/user_proc_test.c.o
+/usr/bin/ranlib libtest.a

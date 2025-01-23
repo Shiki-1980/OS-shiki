@@ -1,0 +1,2 @@
+/usr/bin/ar qc libkernelx.a CMakeFiles/kernelx.dir/console.c.o CMakeFiles/kernelx.dir/core.c.o CMakeFiles/kernelx.dir/cpu.c.o CMakeFiles/kernelx.dir/exec.c.o CMakeFiles/kernelx.dir/mem.c.o CMakeFiles/kernelx.dir/paging.c.o CMakeFiles/kernelx.dir/printk.c.o CMakeFiles/kernelx.dir/proc.c.o CMakeFiles/kernelx.dir/pt.c.o CMakeFiles/kernelx.dir/sched.c.o CMakeFiles/kernelx.dir/syscall.c.o CMakeFiles/kernelx.dir/sysfile.c.o CMakeFiles/kernelx.dir/sysproc.c.o
+/usr/bin/ranlib libkernelx.a
